@@ -1,0 +1,287 @@
+*{
+    margin: 0px;
+    padding: 0px;
+/* header - encabezado */
+}
+
+header{
+    height: 30%;
+}
+
+.headerImg{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+.logo{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 25px;
+    left: 25px;
+    
+}
+
+/* Nav - Menu de navegacion */
+ul{
+    background-color: #e98e16;
+    padding: 30px;
+    text-align: center;
+    
+    
+}
+
+ul li{
+    list-style: none;
+    background-color: #eee23b;
+    padding: 20px;
+    border-radius: 25%;
+    box-shadow: 10px 5px 5px black;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.tituloTabla{
+    color: darkslategray;
+    background-color: darkorange;
+}
+
+/* main - contenido principal */
+
+#datosTabla{
+    background-color: aquamarine;
+    font-size: 23px;
+}
+.box1{
+    width: 50%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #fff;
+    border: blue;
+}
+div.noticia{
+    margin-bottom: 20px;
+    
+}
+
+div.noticia img.izquierda {
+    float: left;
+    margin-right: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 25%;
+    box-shadow: 10px 5px 5px black;
+    
+  }
+  div.noticia img.derecha {
+    float: right;
+    margin-left: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 25%;
+    box-shadow: 10px 5px 5px black;
+  }
+div.reset {
+    clear: both;
+  }
+aside{
+    padding: 50px;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2.tituloNoticias{
+    
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* tienda */
+
+div.productos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+div.productos img{
+    height: 550px;
+    width: 350px;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 10px 5px 5px black;
+    margin-bottom: 30px;
+
+}
+div.titulos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 15px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+       
+}
+div.titulos h2{
+    width: 300px;
+    font-family: 'Lora', serif;
+    text-decoration: underline;
+    font-size: 50px;
+}
+h1.h1Tienda{
+    text-align: center;
+    padding: 30px;
+}
+
+/* soporte */
+
+section.sectionSoporte{
+    margin: 50px 300px 100px 300px;
+}
+
+.h1soporte{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.imgSoporte{
+    padding-top: 125px;
+    margin-left: 250px;
+}
+/* nosotros */
+
+.h2nosotros{
+    text-align: center;
+    padding: 25px;
+    font-size: 50px;
+}
+
+.pNosotros{
+    margin: 0 200px 0 200px;
+    padding: 25px;
+}
+
+.imgNosotros{
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    padding: 30px;
+    
+}
+.imgMasTxt{
+    width: 50%;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+/* contacto */
+section.sectionContacto{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+h1.h1Contacto{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form{
+    border: solid 3px black;
+    padding: 50px;
+    border-radius: 25px;
+    background: #e98e16;
+}
+input{
+    border: solid 2px black;
+    padding: 2px;
+}
+textarea{
+    border: solid 2px black;
+    padding: 2px;
+}
+.boton{
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 20px;
+    margin: 0 10px 20px 0;
+    border: 2px solid black;
+    background: #eee23b;
+    border-radius: 8px 8px 8px 8px;
+}
+
+/* footer - pie de pagina */
+/* .footer{
+    
+    background-color: #004AAD;
+    color: #D9D9D9;
+    font-size: 20px;
+    margin-bottom: 15px;
+    height: 20px;
+    width: 90px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 10px;
+} */
+
+
+
+
+
+footer{
+    background-color: #e98e16;
+    width:100%;
+
+}
+ol{
+    list-style: none;
+    padding: 0%;
+}
+
+
+
+li.footer img{
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-left: 40px;
+    
+}
+li.footer{
+    display: inline-block;
+    position: sticky;
+    
+}
+
+.navFooter{
+    margin-top: auto;
+    
+
+}
+.olRedes{
+    text-align: center;
+    background-color: #e98e16;
+}
+.redes{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
