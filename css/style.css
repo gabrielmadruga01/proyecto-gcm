@@ -42,6 +42,10 @@ ul li{
     margin-right: 10px;
 
 }
+ul li:hover{
+    background-color: aqua;
+
+}
 a{
     color: black;
     text-decoration: none;
@@ -82,6 +86,10 @@ div.noticia img.izquierda {
     box-shadow: 10px 5px 5px black;
     
   }
+  div.noticia img.izquierda:hover { 
+    width: 320px;
+    height: 320px;    
+  }
   div.noticia img.derecha {
     float: right;
     margin-left: 50px;
@@ -90,6 +98,11 @@ div.noticia img.izquierda {
     border-radius: 25%;
     box-shadow: 10px 5px 5px black;
   }
+  div.noticia img.derecha:hover { 
+    width: 320px;
+    height: 320px;    
+  }
+  
 div.reset {
     clear: both;
   }
@@ -117,7 +130,7 @@ div.productos{
 }
 
 div.productos img{
-    height: 550px;
+    height: 350px;
     width: 350px;
     padding: 15px;
     border-radius: 25px;
