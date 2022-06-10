@@ -10,7 +10,7 @@ header{
 
 .headerImg{
     position: relative;
-    height: 500px;
+    height: 450px;
     width: 100%;
     margin-bottom: 0px;
 }
@@ -25,7 +25,7 @@ header{
 
 /* Nav - Menu de navegacion */
 ul{
-    background-color: #e98e16;
+    background-color: #1d2147;
     padding: 30px;
     text-align: center;
     
@@ -44,6 +44,8 @@ ul li{
 }
 ul li:hover{
     background-color: aqua;
+    transition-duration: 1s;
+
 
 }
 a{
@@ -88,7 +90,9 @@ div.noticia img.izquierda {
   }
   div.noticia img.izquierda:hover { 
     width: 320px;
-    height: 320px;    
+    height: 320px; 
+    transition-duration: .5s;
+   
   }
   div.noticia img.derecha {
     float: right;
@@ -100,7 +104,8 @@ div.noticia img.izquierda {
   }
   div.noticia img.derecha:hover { 
     width: 320px;
-    height: 320px;    
+    height: 320px;
+    transition-duration: .5s;    
   }
   
 div.reset {
@@ -130,12 +135,21 @@ div.productos{
 }
 
 div.productos img{
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
     padding: 15px;
     border-radius: 25px;
     box-shadow: 10px 5px 5px black;
     margin-bottom: 30px;
+    border: solid 1px grey;
+
+}
+
+div.productos img:hover{
+    height: 320px;
+    width: 320px;
+    border: solid 1px rgb(8, 58, 82);
+    transition-duration: .5s;
 
 }
 div.titulos{
@@ -216,7 +230,7 @@ form{
     border: solid 3px black;
     padding: 50px;
     border-radius: 25px;
-    background: #e98e16;
+    background: rgba(102, 97, 97, 0.548);
 }
 input{
     border: solid 2px black;
@@ -229,6 +243,7 @@ textarea{
 .boton{
     font-weight: bold;
     font-size: 15px;
+    width: 100%;
     cursor: pointer;
     padding: 20px;
     margin: 0 10px 20px 0;
@@ -256,7 +271,7 @@ textarea{
 
 
 footer{
-    background-color: #e98e16;
+    background-color: #1d2147;
     width:100%;
 
 }
@@ -287,7 +302,7 @@ li.footer{
 }
 .olRedes{
     text-align: center;
-    background-color: #e98e16;
+    background-color: #1d2147;
 }
 .redes{
     text-align: center;
