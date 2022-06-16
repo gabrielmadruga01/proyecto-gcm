@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,21 +48,30 @@
     </header>
     <!-- MAIN : CONTENIDO PRINCIPAL -->
     <main>
-        <h1 class="h1Tienda">Nuestros Productos</h1>
-        <section class="tienda">
-            <div class="titulos">
-                <h2>Notebooks</h2>
-                <h2>Torres</h2>
-                <h2>Perifericos</h2>
-                <h2>Redes</h2>
-            </div>
-            <div class="productos">
-                <img src="./img/notebooks.jpg" alt="notebooks">
-                <img src="./img/torres.jpg" alt="torres">
-                <img src="./img/perifericos.gif" alt="perifericos">
-                <img src="./img/router y switch.webp" alt="">
-            </div>
-        </section>
+        <div class="container">
+
+            <h1 class="h1Tienda">Nuestros Productos</h1>
+            <section class="tienda row row-cols-auto">
+                <div class="productos ">
+                    <h2 class="text-center" >Notebooks</h2>
+                    <img src="./img/notebooks.jpg" alt="notebooks">
+                </div>
+                <div class="productos ">
+                    <h2 class="text-center">Torres</h2>
+                    <img src="./img/torres.jpg" alt="torres">
+                </div>
+                <div class="productos ">
+                    <h2 class="text-center">Perifericos</h2>
+                    <img src="img/perifericos.gif" alt="perifericos">
+                </div>
+                <div class="productos ">
+                    <h2 class="text-center">Redes</h2>
+                    <img src="./img/router y switch.webp" alt="redes">
+                </div>
+
+            </section>
+
+        </div>
     </main>
     <!-- FOOTER: PIE DE PAGINA -->
     <footer>
@@ -90,6 +101,9 @@
         </ol>
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

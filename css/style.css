@@ -62,69 +62,12 @@ a{
 }
 
 /* main - contenido principal */
-
-#datosTabla{
-    background-color: aquamarine;
-    font-size: 23px;
-}
-.box1{
-    width: 50%;
-    margin: 20px auto;
-    padding: 15px;
-    background-color: #fff;
-    border: blue;
-}
-div.noticia{
-    margin-bottom: 20px;
-    
-}
-
-div.noticia img.izquierda {
-    float: left;
-    margin-right: 50px;
-    width: 300px;
-    height: 300px;
-    border-radius: 25%;
-    box-shadow: 10px 5px 5px black;
-    
-  }
-  div.noticia img.izquierda:hover { 
-    width: 320px;
-    height: 320px; 
-    transition-duration: .5s;
-   
-  }
-  div.noticia img.derecha {
-    float: right;
-    margin-left: 50px;
-    width: 300px;
-    height: 300px;
-    border-radius: 25%;
-    box-shadow: 10px 5px 5px black;
-  }
-  div.noticia img.derecha:hover { 
-    width: 320px;
-    height: 320px;
-    transition-duration: .5s;    
-  }
   
-div.reset {
-    clear: both;
-  }
-aside{
-    padding: 50px;
-    font-size: 22px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-h2.tituloNoticias{
-    
-    font-size: 40px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+
 
 /* tienda */
 
-div.productos{
+/* div.productos{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
@@ -132,7 +75,7 @@ div.productos{
     margin-left: 100px;
     margin-right: 100px;
     
-}
+} */
 
 div.productos img{
     height: 300px;
@@ -152,7 +95,7 @@ div.productos img:hover{
     transition-duration: .5s;
 
 }
-div.titulos{
+/* div.titulos{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 15px;
@@ -160,7 +103,7 @@ div.titulos{
     margin-left: 100px;
     margin-right: 100px;
        
-}
+} */
 div.titulos h2{
     width: 300px;
     font-family: 'Lora', serif;
@@ -305,6 +248,7 @@ li.footer{
     background-color: #1d2147;
 }
 .redes{
+    color: black;
     text-align: center;
     padding: 10px;
     margin-bottom: 20px;
